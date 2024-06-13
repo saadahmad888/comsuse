@@ -25,10 +25,10 @@ function App() {
     <React.Fragment>
       <Route>
         <Switch>
-          <Route exact path="/" component={Home1} />
-          <Route path="/home-2" component={Home2} />
-          <Route path="/home-3" component={Home3} />
-          <Route path="/home-4" component={Home4} />
+          {/* <Route exact path="/home1" component={Home1} /> */}
+          {/* <Route path="/home-3" component={Home3} /> */}
+          <Route exact path="/" component={Home4} />
+          {/* <Route path="/home-2" component={Home3} /> */}
           <Route path="/about" component={About} />
           <Route path="/doctors" component={Doctors} />
           <Route path="/doctor-details" component={DoctorDetails} />

@@ -6,7 +6,7 @@ export default class ServiceFourItems extends Component {
             <>
                 <div className="col-lg-4">
                     <div className="info-box info-box-layout-2">
-                        <div className="info__icon">
+                        {/* <div className="info__icon">
                             <svg className="info_svg" id="Capa_3" enableBackground="new 0 0 512.375 512.375"
                                 viewBox="0 0 512.375 512.375" xmlns="http://www.w3.org/2000/svg">
                                 <g>
@@ -38,12 +38,11 @@ export default class ServiceFourItems extends Component {
                                         d="m340.491 471.731c-4.142 0-7.5 3.357-7.5 7.5v25.644c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-25.644c0-4.142-3.358-7.5-7.5-7.5z" />
                                 </g>
                             </svg>
-                        </div>
+                        </div> */}
                         <div className="info-box-content">
-                            <h3 className="info__title">High Fever</h3>
+                            <h3 className="info__title">Data Encryption and processes (drop down arrow to reveal information)</h3>
                             <p className="info__text">
-                                Quis ipsum dolor seiet cei amet ultrices gravida
-                                Risu viverra.
+                                We ensure that all data (sent and stored) are encrypted according to NHS guidelines. Our server is hosted by Amazon and all clinical communication that occurs between clinicians about their respective patients are processed to our secure severe.  
                             </p>
                         </div>
                     </div>

@@ -54,7 +54,7 @@ export default function Navbar2({ children }) {
                                         <nav className="main-menu">
                                             <ul>
                                                 <li>
-                                                    <Link to="/home-4">Home</Link>
+                                                    <Link to="/">Home</Link>
                                                 </li>
                                                 <li><Link to="/prevention">WHAT IS COMSUCE?</Link></li>
                                                 <li><Link to="/about">ABOUT US</Link></li>

@@ -36,7 +36,7 @@ export default class Home4 extends Component {
                     <HowItWork3 />
                 </section>
                 <section className="service-area section-bg section-padding">
-                    <SectionTitle title="Coronavirus Symptoms" subtitle="Virus Symptoms" />
+                    <SectionTitle title="How do we protect it?" subtitle="Comsuce Security" />
                     <ServiceFour />
                 </section>
                 <section className="subscriber-area cta-2 padding-top-80px padding-bottom-80px">
@@ -54,12 +54,12 @@ export default class Home4 extends Component {
                     <SectionTitle title="Mapping the Coronavirus (COVID-19) Outbreak" subtitle="Coronavirus: Trucker" />
                     <MapOne />
                 </section>
-                <section className="hiw-area section--padding section-bg text-center">
+                {/* <section className="hiw-area section--padding section-bg text-center">
                     <SectionTitle title="How to Wash Your Hands Follow the Step one by one" subtitle="FollowThe Washing Steps" />
                     <HowItWork2 />
-                </section>
-                <section className="service-area service-two section--padding">
-                    <SectionTitle title="Important Precautions Follow one by one" subtitle="How To Be Safe" />
+                </section> */}
+                <section className="service-area service-two section--padding section-bg">
+                    <SectionTitle title="WHY COMSUCE?" subtitle="Why With Us" />
                     <ServiceTwo />
                 </section>
                 <Border />
